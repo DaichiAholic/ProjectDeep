@@ -31,13 +31,13 @@ team: [ราชันย์บัลลังคุกกี้]
 
 | Module                                | หน้าที่                                                           | สถานะ     | ผู้รับผิดชอบ |
 | ------------------------------------- | ------------------------------------------------------------------------ | -------------- | ------------------------ |
-| `AudioManager` (SFX พื้นฐาน) | เสียงตอบสนอง action หลัก                                 | 🔲 Not Started | [ชื่อ]               |
-| UI/HUD (score, timer)                 | แสดงสถานะระหว่างเล่น                                 | 🔲 Not Started | [ชื่อ]               |
-| Music / เพลงประกอบ          |                                                                          | 🔲 Not Started | [ชื่อ]               |
-| item loot                             | มอบ item สำหรับให้ผู้เล่นใช้เอาชีวิตรอด | 🔲 Not Started | [ชื่อ]               |
-| use items                             | ทำให้ผู้เล่นสามารถใช้ไอเทมได้               | 🔲 Not Started |                          |
-| monster the shadow                    | ภัยคุกคามในความมืด คอยลด sanity ผู้เล่น    | 🔲 Not Started |                          |
-| NOTE ข้อความ                   | เป็นเนื้อเรื่อง                                           | 🔲 Not Started |                          |
+| `AudioManager` (SFX พื้นฐาน) | เสียงตอบสนอง action หลัก                                 | 🔲 Not Started | [gun]                    |
+| UI/HUD (score, timer)                 | แสดงสถานะระหว่างเล่น                                 | 🔲 Not Started | [gun]                    |
+| Music / เพลงประกอบ          |                                                                          | 🔲 Not Started | [Ray]                    |
+| item loot                             | มอบ item สำหรับให้ผู้เล่นใช้เอาชีวิตรอด | 🔲 Not Started | [gun]                    |
+| use items                             | ทำให้ผู้เล่นสามารถใช้ไอเทมได้               | 🔲 Not Started | [gun]                    |
+| monster the shadow                    | ภัยคุกคามในความมืด คอยลด sanity ผู้เล่น    | 🔲 Not Started | [gun]                    |
+| NOTE ข้อความ                   | เป็นเนื้อเรื่อง                                           | 🔲 Not Started | [Note]                   |
 | asset Monster                         | ภาพสำหรับทำ Monster                                          | 🔲 Not Started | [Ray,Deaw]               |
 
 ## Cut-List (ตัดทิ้งก่อนถ้าเวลาไม่พอ — ห้ามเริ่มก่อน Must-Have เสร็จ)

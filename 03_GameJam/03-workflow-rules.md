@@ -1,7 +1,7 @@
 ---
 type: jam-workflow
 version: 0.1
-date: [21/07/2026]
+date: [วันที่]
 team: [ราชันย์บัลลังคุกกี้]
 ---
 # Git Workflow Rules — [ราชันย์บัลลังคุกกี้]

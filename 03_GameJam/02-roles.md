@@ -11,11 +11,11 @@ team: [ราชันย์บัลลังคุกกี้]
 | คน | ชื่อ | Module ที่รับผิดชอบ         | Phase ที่ต้องเสร็จ |
 | ---- | -------- | --------------------------------------- | ------------------------------ |
 | 1    | gun      | `GameStateManager` + `InputManager` | Phase 2 (Hour 6–14)           |
-| 2    | gun      | Core mechanic `Update()` logic        | Phase 2–3 (Hour 6–24)        |
-| 3    | gun      | Render/`SpriteBatch` + Collision      | Phase 2–3 (Hour 6–24)        |
-| 4    | gun      | Content pipeline (MGCB) + Audio/UI      | Phase 3–4 (Hour 14–34)       |
-|      |          |                                         |                                |
-|      |          |                                         |                                |
+| 1    | gun      | Core mechanic `Update()` logic        | Phase 2–3 (Hour 6–24)        |
+| 1    | gun      | Render/`SpriteBatch` + Collision      | Phase 2–3 (Hour 6–24)        |
+| 1    | Note     | Content pipeline (MGCB) + Audio/UI      | Phase 3–4 (Hour 14–34)       |
+| 1    | Deaw     | Asset, tiles map                        | Phase 3–4 (Hour 14–34)       |
+| 1    | Ray      | Characters, monster                     | Phase 3–4 (Hour 14–34)       |
 
 > คนละไฟล์/module = ชนกันน้อยที่สุด ปรับ module ตามตาราง [01-pipeline-checklist.md](01-pipeline-checklist.md) ให้ตรงกับเกมจริงของทีม
 
@@ -25,7 +25,7 @@ team: [ราชันย์บัลลังคุกกี้]
 
 | ไฟล์/พื้นที่ที่เสี่ยงชนกัน | เจ้าของหลัก | กติกาการแก้ไข                                                            |
 | --------------------------------------------------- | ---------------------- | ------------------------------------------------------------------------------------- |
-| `Game1.cs`                                        | [ชื่อ]             | [เช่น "คนอื่นแจ้งใน chat ก่อนแก้ แล้ว pull ก่อน push"] |
+| `Game1.cs`                                        | Gun                    | [เช่น "คนอื่นแจ้งใน chat ก่อนแก้ แล้ว pull ก่อน push"] |
 | [ไฟล์อื่นที่คาดว่าจะชน]        | [ชื่อ]             | [กติกา]                                                                          |
 
 ## เมื่อคนใดคนหนึ่งเสร็จงานตัวเองก่อน
